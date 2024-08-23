@@ -1,0 +1,206 @@
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* HEADER */
+
+.header {
+  padding: 23px 0 23px 0;
+  background-color: #f1f1f1;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  text-decoration: none;
+  padding: 0 12px 3px 0;
+  position: relative;
+  line-height: 1;
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  transition: 0.1s ease-in;
+}
+
+.nav-link:hover {
+  font-size: 23px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.header-content {
+  padding: 180px 0;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  font-size: 46px;
+  word-spacing: 10px;
+}
+
+.header-content p {
+  max-width: 500px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.header-pic {
+  width: 494px;
+  height: 613px;
+}
+
+/* SERVICES */
+
+.services {
+  padding: 90px 0;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+  width: 1230px;
+  min-height: 228px;
+}
+
+.service-card-img {
+  margin-bottom: 10px;
+}
+
+.service-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.portfolio {
+  background-color: #f1f1f1;
+}
+
+.portfolio-title {
+  padding: 90px 0 70px 0;
+}
+
+.title-1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.project-img {
+  height: 500px;
+}
+
+.project-title {
+  padding: 20px 0 70px 0;
+}
+
+.project-title p {
+  font-size: 18px;
+}
+
+.project-title a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.1s ease-in;
+}
+
+.project-title a:hover {
+  font-size: 20px;
+}
+
+/* FOOTER */
+
+.contacts-title {
+  padding: 20px 0 5px 0;
+}
+
+.contacts-content {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.contacts-button {
+  padding-bottom: 60px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #070707;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 7px 22px;
+  border-radius: 30px;
+  transition: 0.1s ease-in;
+}
+
+.btn:hover {
+  font-size: 20px;
+}
+
+.contact-social a {
+  color: #828282;
+  font-size: 40px;
+  display: inline;
+  padding: 10px;
+  transition: 0.1s ease-in;
+}
+
+.contact-social a:hover {
+  font-size: 50px;
+  color: #070707;
+}
+
+.contacts-footer {
+  padding: 20px 0 40px 0;
+  color: #070707;
+}
